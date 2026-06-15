@@ -1,0 +1,71 @@
+# Laravel / PHP
+/vendor
+/node_modules
+/public/build
+/public/hot
+
+# Laravel environment files
+.env
+.env.*
+!.env.example
+
+# Laravel generated files
+/storage/*.key
+/storage/app/*
+!/storage/app/.gitignore
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Uploaded customer files
+/public/storage
+/storage/app/public/part-requests
+/storage/app/public/invoices
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing / coverage
+/coverage
+.phpunit.result.cache
+
+# Composer
+composer.phar
+
+# NPM / Vite cache
+/.vite
+/.npm
+
+# Local database / backups
+*.sqlite
+*.db
+*.sql
+*.sql.gz
+*.bak
+*.backup
+
+# Stripe / secrets / keys
+*.pem
+*.key
+auth.json
